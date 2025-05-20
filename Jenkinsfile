@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-              git https://github.com/NambariGayatri/jenkinsCI-CD.git 
+               git url: 'https://github.com/NambariGayatri/jenkinsCI-CD.git' 
             }
         }
         stage('Build') {
